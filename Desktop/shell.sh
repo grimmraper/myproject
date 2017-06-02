@@ -41,7 +41,6 @@ sudo npm install evalify --save-dev
 sudo npm install txtify2 --save-dev
 sudo npm install concatenify --save-dev
 sudo npm install coffeeify --save-dev
-#
 sudo npm install angular_record_store --save-dev
 sudo npm install lokijs --save-dev
 sudo npm install moment --save-dev
@@ -54,27 +53,49 @@ sudo npm install bowser --save-dev
 sudo npm install highcharts --save-dev
 sudo npm install angular --save-dev
 sudo npm install angular-ui-router --save-dev
-
-#sudo npm install ng-token-auth --save-dev
 sudo npm install angular-aria --save-dev
 sudo npm install angular-animate --save-dev
 sudo npm install angular-material --save-dev
 sudo npm install angular-messages --save-dev
 sudo npm install ng-focus-if --save-dev
-#sudo npm install angular-upload --save-dev
 sudo npm install angular-material-icons --save-dev
 sudo npm install ng-sanitize --save-dev
 sudo npm install angular-truncate-2 --save-dev
-#sudo npm install angular-marked --save-dev
 sudo npm install ng-q-all-settled --save-dev
 sudo npm install ng-csv --save-dev
 sudo npm install angular-chart.js --save-dev
 sudo npm install highcharts-ng --save-dev
 sudo npm install angular-material-data-table --save-dev
-#
 sudo npm install angular-sanitize --save-dev
 sudo npm install -g bower
 sudo npm install angular-cookie --save-dev
+sudo npm install ng-token-auth --save-dev
+sudo npm install angular-marked --save-dev
+git config --global url."https://".insteadOf git://
+sudo npm install angular-upload --save-dev
+sudo npm install bower
+sudo bower update -a
+sudo npm install -g bower-canary
+sudo npm install --global babel-cli
+sudo npm install angular
+sudo npm install grunt
+sudo apt install -y zsh
+sudo npm update npm -g
+sudo curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | zsh
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
+ curl -sL https://deb.nodesource.com/setup | sudo -E bash -
+nvm install node
+#
+sudo chmod g+rwx /home/qwe/.config /home/qwe/.config/configstore
+bower install
+cd configstore
+cd .config/
+sudo chown -R qwe:qwe configstore/
+sudo npm upgrade 
+sudo npm update 
+sudo npm instal
+#
+npm rebuild node-sass
 #sudo npm install angular-autodisable/angular-autodisable --save-dev
 #
 
